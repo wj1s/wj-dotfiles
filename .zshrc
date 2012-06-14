@@ -40,7 +40,7 @@ export EDITOR='/usr/bin/vim'
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 alias vi="vim"
-alias gs="git status -s"
+alias gs="git status -s -b"
 alias ga="git add --all"
 alias gl="git log"
 alias gc="git commit"
@@ -52,3 +52,4 @@ alias ,e="vi ~/.zshrc"
 alias :o="open ."
 
 PATH=$PATH:$HOME/.rvm/bin
+#set -o vi
