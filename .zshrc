@@ -49,6 +49,7 @@ alias cls="clear"
 alias ,e="vi ~/.zshrc"
 alias o="open ."
 alias t="cd ~/tmp"
+alias ctags="`brew --prefix`/bin/ctags"
 
 PATH=$PATH:$HOME/.rvm/bin
 #set -o vi
