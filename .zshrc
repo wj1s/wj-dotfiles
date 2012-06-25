@@ -42,7 +42,7 @@ export EDITOR='/usr/bin/vim'
 alias vi="vim"
 alias gs="git status"
 alias ga="git add --all"
-alias gl="git log"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gc="git commit"
 alias gr="cd ~/github-working-copy/"
 alias cls="clear"
