@@ -53,4 +53,4 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 PATH=$PATH:$HOME/.rvm/bin
 #set -o vi
-rvm use 1.9.3
+#rvm use 1.9.3
