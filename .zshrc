@@ -35,7 +35,7 @@ plugins=(git ruby rails)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/twer/.rvm/gems/ruby-1.9.2-p290/bin:/Users/twer/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/twer/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/twer/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/twer/.rvm/bin
+export PATH=/Users/twer/.rvm/gems/ruby-1.9.2-p290/bin:/Users/twer/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/twer/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/twer/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/twer/.rvm/bin
 export EDITOR='/usr/bin/vim'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
