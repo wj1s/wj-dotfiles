@@ -35,7 +35,7 @@ plugins=(git ruby rails)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/twer/.rvm/gems/ruby-1.9.2-p290/bin:/Users/twer/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/twer/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/twer/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/twer/.rvm/bin
+export PATH=/usr/local/share/npm/bin:/usr/local/Cellar/ruby/1.9.3-p194/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/twer/.rvm/bin
 export EDITOR='/usr/bin/vim'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
@@ -45,12 +45,13 @@ alias gs="git status"
 alias ga="git add --all"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gc="git commit"
-alias gr="cd ~/github-working-copy/"
+alias gr="cd ~/Program/github-working-copy/"
 alias cls="clear"
 alias ,e="vi ~/.zshrc"
 alias o="open ."
 alias t="cd ~/tmp"
 alias ctags="`brew --prefix`/bin/ctags"
+alias e=emacs -q --no-splash --eval="(setq light-weight-emacs t)" -l "$HOME/.emacs.d/init.el"
 
 PATH=$PATH:$HOME/.rvm/bin
 #set -o vi
