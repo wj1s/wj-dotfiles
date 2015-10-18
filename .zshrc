@@ -35,7 +35,7 @@ plugins=(git ruby rails)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/twer/.rvm/bin"
+export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/twer/.rvm/bin:/Users/twer/Downloads/zookeeper-3.4.5/bin:/Users/twer/Program/apache-storm-0.9.1-incubating/bin"
 export EDITOR='/usr/bin/vim'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
@@ -47,12 +47,15 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gc="git commit"
 alias gr="cd ~/Program/github-working-copy/"
 alias cls="clear"
-alias ,e="vi ~/.zshrc"
+alias ,e="~/bin/subl ~/.zshrc"
 alias o="open ."
 alias t="cd ~/tmp"
 alias ctags="`brew --prefix`/bin/ctags"
-alias e=emacs -q --no-splash --eval="(setq light-weight-emacs t)" -l "$HOME/.emacs.d/init.el"
 
-PATH=$PATH:$HOME/.rvm/bin
+alias ed="emacs --daemon"
+alias e="emacsclient -t"
+alias ec="emacsclient -c"
+
+PATH=/usr/local/Cellar/emacs/24.3/bin:$PATH:$HOME/.rvm/bin:~/bin
 #set -o vi
 #rvm use 1.9.3
